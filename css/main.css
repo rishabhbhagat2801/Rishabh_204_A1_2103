@@ -165,3 +165,25 @@ table {
   ul li{
     list-style: circle;
   }
+
+  .image-container {
+    max-width: 80%;
+}
+
+.image-container img {
+    max-width: 80%; 
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.iframe {
+    max-width: 50%;
+    height: auto; 
+}
