@@ -102,7 +102,6 @@ a:hover {
     height: auto; 
 }
 
-/* Additional CSS Styles */
 .social-links {
     list-style: none;
     padding: 0;
@@ -132,7 +131,6 @@ footer p {
     font-size: 0.8em;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     body {
         width: 90%;
@@ -151,3 +149,19 @@ footer p {
         text-align: center;
     }
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  ul li{
+    list-style: circle;
+  }
