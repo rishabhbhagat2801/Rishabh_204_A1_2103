@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -47,7 +47,7 @@ main {
 }
 
 .left-column {
-    width: 70%;
+    width: 60%;
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,7 @@ main {
 }
 
 .right-column {
-    width: 25%;
+    width: 35%;
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -85,6 +85,7 @@ footer {
     background: linear-gradient(45deg, #870282, #e456e4);
     color: white;
     padding: 20px 0;
+    margin: 0;
 }
 
 a {
