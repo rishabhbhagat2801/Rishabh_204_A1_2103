@@ -1,28 +1,27 @@
-
 * {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     width: 80%;
     margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
-
-
-body {
-    width: 80%;
-    margin: 0 auto;
-}
-
 
 header {
     text-align: center;
-    background-color: purple;
+    background: linear-gradient(45deg, #870282, #e456e4);
     color: white;
+    padding: 20px 0;
 }
 
 nav ul {
     list-style: none;
+    text-align: center;
+    padding: 10px 0;
 }
 
 nav li {
@@ -30,22 +29,125 @@ nav li {
     margin-right: 20px;
 }
 
+nav a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4e54c8;
+}
+
 main {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .left-column {
     width: 70%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column h2 {
+    color: #333;
+}
+
+.left-column p {
+    color: #555;
 }
 
 .right-column {
     width: 25%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-column h3 {
+    color: #333;
+}
+
+.right-column ul {
+    list-style: none;
+}
+
+.right-column li {
+    margin-bottom: 10px;
 }
 
 footer {
     text-align: center;
-    background-color: purple;
+    background: linear-gradient(45deg, #870282, #e456e4);
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
+}
+
+a {
+    color: #4e54c8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #8f94fb;
+}
+
+.right-column img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Additional CSS Styles */
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #4e54c8;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #8f94fb;
+}
+
+.left-column p {
+    color: #555;
+    line-height: 1.5;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        width: 90%;
+    }
+    
+    main {
+        flex-direction: column;
+    }
+    
+    .left-column {
+        width: 100%;
+    }
+    
+    .right-column {
+        width: 100%;
+        text-align: center;
+    }
 }
